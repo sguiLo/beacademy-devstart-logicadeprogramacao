@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "nomeeendereco"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Be.academy 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -6,12 +6,14 @@ Algoritmo "semnome"
 // Data atual  : 25/05/2022
 Var
 // Seção de Declarações das variáveis 
-       nome: caractere
+       nome, endereco: caractere
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
        escreva("Digite seu nome: ")
        leia(nome)
-       escreva("Seja bem-vindo: " , nome)
+       escreval("Qual o seu endereço?")
+       leia(endereco)
+       escreva("Seja bem-vindo: ", nome, ", você mora em: " , endereco)
 
 Fimalgoritmo
